@@ -1,0 +1,47 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM: 
+Make a program that filters a list of strings and returns a list with only your friends name in it.
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+Note: keep the original order of the names in the output.
+_________________________________________________________________________________________
+//ES5 SOLUTION
+function friend(friends) {
+	var filtered = friends.filter(function(value, index, arr){
+		return value.length === 4
+	});
+	return filtered;
+};
+
+//ES6 SOLUTION
+(----)
+
+
+
+_________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM:
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+highAndLow("1 2 3 4 5");  // return "5 1"
+highAndLow("1 2 -3 4 5"); // return "5 -3"
+highAndLow("1 9 3 4 -5"); // return "9 -5"
+_________________________________________________________________________________________
+//ES5 SOLUTION
+function highAndLow(numbers){
+  var revNum = numbers.split(' ').sort().reverse(); 
+  var highAndLowNum = [Math.max.apply(Math, revNum) , Math.min.apply(Math, revNum)]; 
+  return highAndLowNum.join(' ');
+}
+
+//ES6 SOLUTION
+(----)
+
+
+
+_________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM:
+_________________________________________________________________________________________
+//ES5 SOLUTION
+
+//ES6 SOLUTION
