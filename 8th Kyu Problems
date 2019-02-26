@@ -1,43 +1,44 @@
-PROBLEM: Multiply 2 numbers
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM: 
+Multiply 2 numbers
+_________________________________________________________________________________________
 
 //ES5 SOLUTION
-
 function multiply(a, b){
   return a * b;
 }
 
 //ES6 SOLUTION
-
 const multiply = (a, b) => a * b;
 
 
 
-
-
-__________________________________
-PROBLEM: Very simple, given a number, find its opposite.
+_________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM: 
+Very simple, given a number, find its opposite.
+_________________________________________________________________________________________
 
 //ES5 SOLUTION
-
 function opposite(number) {
   return number * -1;
 }
 
 
 //ES6 SOLUTION
-
 const opposite = (number) => number * -1
 
 
 
 
 
-__________________________________
-PROBLEM: Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
-
+_________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PROBLEM: 
+Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+_________________________________________________________________________________________
 
 //ES5 SOLUTION
-
 function even_or_odd (number){ 
     if (number % 2 == 0) {
     	return "Even"; 
@@ -47,9 +48,9 @@ function even_or_odd (number){
 }
 
 //ES6 SOLUTION
-
 const even_or_odd = (number) => (number % 2 == 0) ? "Even" : "Odd";
-__________________________________
+_________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 
